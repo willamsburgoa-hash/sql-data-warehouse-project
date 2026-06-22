@@ -17,7 +17,7 @@ CREATE TABLE bronze.crm_cust_info (
 	cst_key NVARCHAR(50),
 	cst_firstname NVARCHAR(50),
 	cst_lastname NVARCHAR(50),
-	cst_material_status NVARCHAR(50),
+	cst_marital_status NVARCHAR(50),
 	cst_gndr NVARCHAR(50),
 	cst_create_date DATE
 );
@@ -27,11 +27,11 @@ IF OBJECT_ID ('bronze.crm_prd_info', 'U') IS NOT NULL
 	DROP TABLE bronze.crm_prd_info
 CREATE TABLE bronze.crm_prd_info (
 	prd_id INT,
-	pdr_key NVARCHAR(50),
+	prd_key NVARCHAR(50),
 	prd_nm NVARCHAR(50),
 	prd_cost INT,
-	pdr_line NVARCHAR(50),
-	pdr_start_dt DATETIME,
+	prd_line NVARCHAR(50),
+	prd_start_dt DATETIME,
 	prd_end_dt DATETIME
 );
 GO
