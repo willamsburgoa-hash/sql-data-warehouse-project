@@ -3,15 +3,15 @@ Building a Data Warehouse with SQL Server, Including ETL processes, data modelin
 Welcome to the Data Warehouse and Analytics Project Repository!
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project.
 
-##Project Requirements:
+## Project Requirements:
 
-###Building the Data Warehouse
+### Building the Data Warehouse
 
-####Objective
+### Objective
 
 Develop a Data Warehouse using SQL Server to consolidate Sales data, enabling analytical reporting and informing decision-making.
 
-####Specifications
+### Specifications
 
 - Data Sources: Import Data from two source Systems (ERP & CRM) provided as CSV Files
 - Data Quality: Cleanse and resolve data quality issues prior to analysis
@@ -21,7 +21,7 @@ Develop a Data Warehouse using SQL Server to consolidate Sales data, enabling an
 
 ---
 
-##Licese: This project is licensed under the MIT License.
+## Licese: This project is licensed under the MIT License.
 
 ##About me: Hi ther, Im Willams Burgoa, also known as Will or Willy. Im a passionate learner in IT and Data Engineering
 Special Thanks Data With Baraa and his course!
